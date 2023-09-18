@@ -19,7 +19,7 @@ const ExpenseItem = (props) => {
         amount={amount}
         location={props.location}
       />
-      <button onClick={clickHandler}>Delete</button>
+      <button className="deletebtn" onClick={clickHandler}>Delete</button>
     </Card>
   );
 }

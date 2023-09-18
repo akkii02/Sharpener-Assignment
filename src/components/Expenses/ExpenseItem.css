@@ -27,7 +27,7 @@
     color: white;
   }
   
-  .expense-item__price {
+  .expense-item__price, .deletebtn {
     font-size: 1rem;
     font-weight: bold;
     color: white;
@@ -36,7 +36,11 @@
     padding: 0.5rem;
     border-radius: 12px;
   }
-  
+  .deletebtn{
+    background-color: red;
+    margin:0px 3px ;
+    padding: 0.7rem;
+  }
   @media (min-width: 580px) {
     .expense-item__description {
       flex-direction: row;
