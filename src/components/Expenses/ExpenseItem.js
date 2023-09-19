@@ -9,7 +9,6 @@ const ExpenseItem = (props) => {
 
   const clickHandler = ()=>{
     changeAmount('100$');
-    console.log(amount)
   }
   return (
     <Card className="expense-item">
