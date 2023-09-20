@@ -9,6 +9,7 @@ const ExpenseItem = (props) => {
 
   const clickHandler = ()=>{
     changeAmount('100$');
+    
   }
   return (
     <Card className="expense-item">
